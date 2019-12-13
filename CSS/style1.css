@@ -1,0 +1,63 @@
+html {
+    max-width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    font-size: x-large;
+    font-weight: normal;
+}  
+
+body {
+    font-family: serif, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 1.2;
+}
+  
+/* Header */
+
+h1 {
+    font-weight: 550;
+    background: rgb(180, 34, 59);
+    color: white;
+    height: 40px;
+}
+
+.kont {
+    text-align: center;
+}
+ 
+
+ /* Main */
+
+.img {
+        height: 300px;
+}
+
+.box {
+    width: 400px;
+    margin: auto;
+}
+
+.line td img {
+   border: 3px dashed black;
+}
+
+a {
+    color: rgb(33, 16, 189);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(92, 10, 10);
+    transition: all .3s step-end;    
+}
+ 
+  /* Footer */
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background: black;
+}
